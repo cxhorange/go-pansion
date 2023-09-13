@@ -1,0 +1,31 @@
+{
+  "stepDuration": 5,
+  "blockReward": "0x0",
+  "maximumUncleCountTransition": 0,
+  "maximumUncleCount": 0,
+  "validators": {
+    "multi": {
+      "0": {
+        "list": [
+          "0xcace5b3c29211740e595850e80478416ee77ca21"
+        ]
+      },
+      "1300": {
+        "safeContract": "0x22e1229a2c5b95a60983b5577f745a603284f535"
+      },
+      "9186425": {
+        "contract": "0xB87BE9f7196F2AE084Ca1DE6af5264292976e013"
+      }
+    }
+  },
+  "blockRewardContractAddress": "0x867305d19606aadba405ce534e303d0e225f9556",
+  "blockRewardContractTransition": 1310,
+  "blockRewardContractTransitions": {
+    "9186425": "0x481c034c6d9441db23ea48de68bcae812c5d39ba"
+  },
+  "randomnessContractAddress": {
+    "9186425": "0x5870b0527DeDB1cFBD9534343Feda1a41Ce47766"
+  },
+  "posdaoTransition": 9186425,
+  "registrar": "0x6B53721D4f2Fb9514B85f5C49b197D857e36Cf03"
+}
