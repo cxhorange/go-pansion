@@ -1,17 +1,18 @@
 # Xpansion
 
-The project is an early preview version with limited features and functionalities. It serves as a sneak peek or a glimpse into what the final product will offer.
-In subsequent releases, more details, enhancements, and additional features will be unveiled. The current iteration provides a preliminary look at the project's direction and serves as a foundation for further development and refinement.
+The project is an **EARLY PREVIEW VERSION** with limited features and functionalities. It serves as a sneak peek or a glimpse into what the final product will offer.
+In subsequent releases, more details, enhancements, and additional features will be unveiled.
 
 Stay tuned for future updates as we continue to evolve and expand upon the initial preview.
 
 ## Introduction
 
-Project Name is a high-performance Ethereum frontend project developed using the Go programming language. It aims to provide a stable, high-performance, and flexible solution for interacting with the Ethereum blockchain.
+`Xpansion` is a high-performance Ethereum frontend project developed using the Go programming language. 
+It aims to provide a stable, high-performance, and flexible solution for interacting with the Ethereum blockchain.
 
-**Stability**: The project is built with a focus on stability, ensuring reliable and consistent performance in interacting with Ethereum.
-**High Performance**: Leveraging the power of Go, the project is optimized for speed and efficiency, delivering high-performance capabilities for handling Ethereum transactions, smart contracts, and blockchain data.
-**Flexible Scalability**: The architecture of the project allows for easy scalability, enabling seamless expansion of functionalities and accommodating growing demands as your Ethereum-based application evolves.
+- **Stability**: The project is built with a focus on stability, ensuring reliable and consistent performance in interacting with Ethereum.
+- **High Performance**: Leveraging the power of Go, the project is optimized for speed and efficiency, delivering high-performance capabilities for handling Ethereum transactions, smart contracts, and blockchain data.
+- **Flexible Scalability**: The architecture of the project allows for easy scalability, enabling seamless expansion of functionalities and accommodating growing demands as your Ethereum-based application evolves.
 
 ## Supported Platforms
 
@@ -27,46 +28,34 @@ Please ensure that the required dependencies are installed before proceeding wit
 
 ### Prerequisites
 
-build requirement:
+Build requirement:
+
 - Golang version 1.19 or higher
 - GCC 10+ or Clang
 - On Linux: kernel version greater than v4
 
 This release version can run on various platforms, including Windows, Linux, macOS, etc.
-To compile the project, follow these steps:
 
 ### Build Steps
+
+To **compile the project**, follow these steps:
 
 1. Install Go (version >= 1.19) on your system.
 2. Install GCC (version 10+) or Clang to enable C/C++ compilation.
 3. Verify that your Linux kernel version is greater than v4.
-4. Clone the repository:
-   ```bash
-   git clone https://github.com/x-xpansion/go-pansion
-   ```
-5. Change into the project directory:
-   ```bash
-   cd go-pansion
-   ```
-6. Build the project:
-   ```bash
-   go build
-   ```
+4. Clone the repository: `git clone https://github.com/x-xpansion/go-pansion`
+5. Change into the project directory: `cd go-pansion`
+6. Build the project: `go build`
 
 ## Running the Project
 
 After successful compilation, you can run the project on your desired platform:
 
 - **Windows**: Double-click the executable file or run it from the command prompt.
-
-- **Linux**: Execute the compiled binary from the terminal using the following command:
-  ```bash
-  ./go-pansion
-  ```
-
+- **Linux**: Execute the compiled binary from the terminal using the following command: `./go-pansion`
 - **macOS**: Launch the project by either double-clicking the executable or running it from the terminal.
 
-Ensure that you have the appropriate permissions and dependencies installed on your system for a smooth execution.
+*Ensure that you have the appropriate permissions and dependencies installed on your system for a smooth execution.*
 
 ### Installation Steps
 
@@ -89,7 +78,7 @@ Before contributing, please review the [contribution guidelines](CONTRIBUTING.md
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
 
 ## Acknowledgments
 
